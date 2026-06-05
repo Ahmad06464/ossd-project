@@ -1,0 +1,84 @@
+recon-platform/
+│
+├── main.py
+│
+├── gui/
+│   ├── dashboard.py
+│   ├── settings.py
+│   ├── scan_window.py
+│   ├── results_window.py
+│   ├── statistics.py
+│   └── widgets/
+│
+├── core/
+│   ├── scan_manager.py
+│   ├── task_scheduler.py
+│   ├── event_bus.py
+│   ├── output_parser.py
+│   └── config.py
+│
+├── modules/
+│   │
+│   ├── subdomains/
+│   │   ├── subfinder.py
+│   │   ├── sublist3r.py
+│   │   ├── amass.py
+│   │   ├── assetfinder.py
+│   │   ├── crtsh.py
+│   │   ├── virustotal.py
+│   │   ├── securitytrails.py
+│   │   ├── findomain.py
+│   │   └── wayback.py
+│   │
+│   ├── endpoints/
+│   │   ├── gau.py
+│   │   ├── waybackurls.py
+│   │   ├── katana.py
+│   │   └── endpoint_filter.py
+│   │
+│   ├── probing/
+│   │   ├── httpx.py
+│   │   ├── dns_resolver.py
+│   │   └── screenshot.py
+│   │
+│   ├── content_discovery/
+│   │   ├── ffuf.py
+│   │   └── gobuster.py
+│   │
+│   ├── github/
+│   │   ├── github_api.py
+│   │   ├── organization_search.py
+│   │   └── secret_detector.py
+│   │
+│   └── scraping/
+│       ├── web_scraper.py
+│       ├── robots_parser.py
+│       └── sitemap_parser.py
+│
+├── database/
+│   ├── sqlite_manager.py
+│   ├── schema.sql
+│   └── migrations/
+│
+├── reports/
+│   ├── html_report.py
+│   ├── csv_export.py
+│   └── json_export.py
+│
+├── wordlists/
+│   ├── directories.txt
+│   ├── subdomains.txt
+│   └── endpoints.txt
+│
+├── tools/
+│   ├── subfinder
+│   ├── amass
+│   ├── ffuf
+│   ├── gobuster
+│   └── httpx
+│
+├── cache/
+│
+├── logs/
+│
+└── requirements.txt
