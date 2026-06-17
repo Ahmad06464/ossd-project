@@ -452,5 +452,4 @@ Unauthorized scanning, crawling, or probing of third-party infrastructure may vi
 
 ## License
 
-See repository license file. Third-party CLI tools have their own licenses.
 
