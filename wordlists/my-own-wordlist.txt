@@ -1,0 +1,3 @@
+# My own wordlist — saved endpoints from Recon Dashboard
+claud.md
+https://dup-test.example/a
