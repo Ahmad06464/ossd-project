@@ -188,7 +188,7 @@ class ReconDashboard(ctk.CTk):
         )
         self.settings_btn.pack(side="left", padx=4)
 
-        ToolTip(self.wordlist_btn, "Add endpoints or push my-own-wordlist.txt to GitHub")
+        ToolTip(self.wordlist_btn, "Add endpoints or push my-own-wordlist.txt to GitHub ")
         ToolTip(self.sidebar_topbar_btn, "Show or hide scan controls and pipeline (Ctrl+B)")
         ToolTip(self.file_btn, "Import, export, save/load sessions")
         ToolTip(self.report_btn, "Tool discovery report — counts per tool")
