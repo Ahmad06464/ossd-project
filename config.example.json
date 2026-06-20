@@ -20,6 +20,6 @@
   "github_wordlist_repo": "",
   "github_wordlist_path": "wordlists/my-own-wordlist.txt",
   "github_wordlist_branch": "main",
-  "github_wordlist_commit_message": "Update my-own-wordlist from Recon Dashboard",
+  "github_wordlist_commit_message": "Update my-own-wordlist from Recon Dashboard ",
   "auto_push_wordlist": true
 }
