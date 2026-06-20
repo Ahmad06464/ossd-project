@@ -450,6 +450,6 @@ Unauthorized scanning, crawling, or probing of third-party infrastructure may vi
 
 ---
 
-## License
+## License:
 
 
